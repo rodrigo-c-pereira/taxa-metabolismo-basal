@@ -16,3 +16,6 @@ elif gender=='f':
     age = int(input("Insira sua idade em anos:"))
     formula = 655 + (9.6*kg) + (1.8*h) - (4.7*age)
     print("Sua taxa de metabolismo basal é de", formula, "kcal.")
+
+else:
+    print("Não foi possível definir o gênero.")
